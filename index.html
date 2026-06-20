@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- viewport meta tag ensures responsive behaviour on mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vigor – Your day, organised. Effortlessly.</title>
+    <!-- Google Fonts: Inter for clean, modern typography -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link to our stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ===================== NAVIGATION ===================== -->
+    <header class="navbar">
+      <div class="navbar__brand">Vigor</div>
+      <nav class="navbar__links">
+        <a href="#features">Features</a>
+        <a href="#cta" class="btn btn--nav">Get Started</a>
+      </nav>
+    </header>
+
+    <!-- ===================== HERO SECTION ===================== -->
+    <!-- The hero is the first thing a visitor sees.
+         It has a headline (h1), a short subtext, and a CTA button. -->
+    <section id="hero" class="hero">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Productivity, reimagined</p>
+        <h1 class="hero__headline">Your day, organised.<br />Effortlessly.</h1>
+        <p class="hero__subtext">
+          Vigor brings your tasks, calendar, and team into one calm, focused
+          workspace — so you can spend less time managing and more time doing
+          what matters.
+        </p>
+        <div class="hero__actions">
+          <a href="#cta" class="btn btn--primary">Start for free</a>
+          <a href="#features" class="btn btn--ghost">See how it works</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FEATURES SECTION ===================== -->
+    <!-- Each feature is a "card" with a small icon emoji, a heading,
+         and a short description. Grid layout is handled in CSS. -->
+    <section id="features" class="features">
+      <div class="features__header">
+        <h2>Everything you need. Nothing you don't.</h2>
+        <p>Vigor strips away the noise so your team can move fast.</p>
+      </div>
+
+      <div class="features__grid">
+        <article class="feature-card">
+          <span class="feature-card__icon" aria-hidden="true">⚡</span>
+          <h3 class="feature-card__title">Smart Task Engine</h3>
+          <p class="feature-card__desc">
+            Automatically prioritises your backlog based on deadlines,
+            dependencies, and your working patterns. No manual sorting needed.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-card__icon" aria-hidden="true">📅</span>
+          <h3 class="feature-card__title">Unified Calendar</h3>
+          <p class="feature-card__desc">
+            Google Calendar, Outlook, and iCal all in one place. See every
+            meeting alongside your tasks so nothing falls between the cracks.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-card__icon" aria-hidden="true">🤝</span>
+          <h3 class="feature-card__title">Real-time Collaboration</h3>
+          <p class="feature-card__desc">
+            Assign tasks, leave comments, and share progress with your team in
+            real time — no more chasing updates over email.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-card__icon" aria-hidden="true">📊</span>
+          <h3 class="feature-card__title">Focus Analytics</h3>
+          <p class="feature-card__desc">
+            Weekly reports show where your time actually goes so you can protect
+            deep work hours and reduce unproductive meetings.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-card__icon" aria-hidden="true">🔔</span>
+          <h3 class="feature-card__title">Smart Reminders</h3>
+          <p class="feature-card__desc">
+            Context-aware nudges that arrive at the right moment — not every
+            five minutes. Vigor learns when you are most receptive.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-card__icon" aria-hidden="true">🔒</span>
+          <h3 class="feature-card__title">Enterprise Security</h3>
+          <p class="feature-card__desc">
+            End-to-end encryption, SSO, and role-based permissions keep your
+            data private whether you are a solo freelancer or a 500-person team.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== CALL TO ACTION SECTION ===================== -->
+    <!-- This section invites the visitor to sign up / get started. -->
+    <section id="cta" class="cta">
+      <div class="cta__content">
+        <h2 class="cta__headline">Ready to take back your day?</h2>
+        <p class="cta__subtext">
+          Join 40,000+ professionals who use Vigor to get more done with less
+          stress. Free to start — no credit card required.
+        </p>
+        <a href="#" class="btn btn--primary btn--large"
+          >Create your free account</a
+        >
+      </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+      <div class="footer__inner">
+        <p class="footer__brand">Vigor</p>
+        <nav class="footer__links" aria-label="Footer navigation">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Contact</a>
+          <a href="#">Blog</a>
+        </nav>
+        <p class="footer__copy">&copy; 2026 Vigor Inc. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
